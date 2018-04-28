@@ -4,7 +4,7 @@
 //   return Object.assign({}, object, {[artist]: title})
 // }
 
-// function removePlaylist(object, artist) {
+// function removeFromPlaylist(object, artist) {
 //   var newObj = Object.assign({}, object)
 //   delete newObj.artist
 //   return newObj
