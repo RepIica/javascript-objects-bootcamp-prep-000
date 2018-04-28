@@ -1,11 +1,11 @@
-var playlist = {Deadmau5: "Strobe"}
+// var playlist = {Deadmau5: "Strobe"}
 
-function updatePlaylist(object, artist, title) {
-  return Object.assign({}, object, {[artist]: title})
-}
+// function updatePlaylist(object, artist, title) {
+//   return Object.assign({}, object, {[artist]: title})
+// }
 
-function removePlaylist(object, artist) {
-  var newObj = Object.assign({}, object)
-  delete newObj.artist
-  return newObj
-}
+// function removePlaylist(object, artist) {
+//   var newObj = Object.assign({}, object)
+//   delete newObj.artist
+//   return newObj
+// }
